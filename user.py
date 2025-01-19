@@ -8,7 +8,7 @@ router = APIRouter(prefix='/user', tags=['user'])
 async def all_users():
     pass
 
-@router.get('user_id')
+@router.get('/user_id')
 async def user_by_id():
     pass
 
